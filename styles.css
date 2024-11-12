@@ -170,14 +170,14 @@ ul#topnav li a {
 
 .pageitem h1 {
     font-weight:normal;
-    font-size: 40px;
+    font-size:10vw;
     color: #FFFFFF;
     margin:0;
     text-align:left;
 }
 
 .pageitem h2 {
-    font-size:40px;
+    font-size:10vw;
     color:#FFFFFF;
     margin-top:0;
 }
@@ -185,7 +185,7 @@ ul#topnav li a {
 .pageitem p em {
     background-color:inherit;
     color:#FFFFFF;
-    font-size:32px;
+    font-size:7vw;
     font-style:normal;
     font-weight:100;
 }
@@ -193,7 +193,7 @@ ul#topnav li a {
 .pageitem p {
     padding:0 75px;
     margin:0;
-    font-size:32px;
+    font-size:7vw;
     line-height:200%;
  }
 
@@ -231,7 +231,7 @@ ul#topnav li a {
     margin-bottom:15px;
     padding:15px 0;
     text-align:left;
-    font-size:13px;
+    font-size:5vw;
      color:#999;
 }
 
@@ -267,7 +267,7 @@ ul#bottomnav li li {
     display:table;
     width:100%;
     text-align:left;
-    font-size:12px;
+    font-size:5vw;
     color:#999;
     line-height:100%;
 }
@@ -290,7 +290,7 @@ ul#topnav li a { padding-left:20px;}
 
 .pageitem p{
     color: #FFFFFF;
-    font-size: 32px; 
+    font-size: 8vw; 
     padding:0;
 }
 
