@@ -126,7 +126,7 @@ ul#topnav li a {
 
 .paragraph {
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 2vw;
   padding-right: 300px;
   padding-left: 300px;
   margin-top: 20px;
@@ -134,7 +134,7 @@ ul#topnav li a {
 }
 
 .sectionhead {
-    font-size:7vw;
+    font-size:5vw;
     color:#7b716d;
     margin-top:10px;
     text-align: center;
@@ -144,7 +144,7 @@ ul#topnav li a {
   width: 62.5%;
   color:#666699;
   border-bottom: 1px solid #eee;
-  font-size: 33px;
+  font-size: 5vw;
   padding: 20px 10px;
   margin: auto;
   text-align: center;
