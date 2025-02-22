@@ -1,7 +1,7 @@
 {
   "name": "wbuz24",
   "version": "0.1.0",
-  "homepage": "https://wbuz24.github.io/wbuz24",
+  "homepage": "https://wbuz24.github.io/wbuz24/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.2.0",
