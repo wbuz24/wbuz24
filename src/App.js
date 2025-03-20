@@ -4,17 +4,24 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { Route, Switch, BrowserRouter} from 'react-router-dom';
 import './App.css';
 
 export default function App() {
-  return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </main>
-  );
+  render(); {
+    return (
+      <div>
+        <BrowserRouter basename="/">
+          <Switch>
+            <Route exact path="/"  component={Navbar} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
 
