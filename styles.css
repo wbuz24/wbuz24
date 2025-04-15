@@ -93,7 +93,7 @@ a:hover {
   width: 80%; /* Adjusted width */
   margin: 60px auto;
   color: white;
-  text-align: center;
+  text-align: flex-start;
   font-size: 4vw; /* Scalable font size */
 }
 
