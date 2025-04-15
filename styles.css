@@ -100,7 +100,7 @@ a:hover {
 /* Paragraph Styles */
 .paragraph {
   color: #FFFFFF;
-  font-size: 3vw; /* Scalable font size */
+  font-size: 2vw; /* Scalable font size */
   padding: 10px 5%; /* Reduced padding, using percentage */
   margin-top: 20px;
   text-align: center;
