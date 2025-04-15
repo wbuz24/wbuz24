@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+body {
+  background-color: #131d20;
+  color: #666699;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px; /* Base font size */
+  font-weight: normal;
+  margin: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FC436B;
+  text-decoration: underline;
+  cursor: grabbing;
+}
+
+/* Image Styles */
+.img {
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 50px;
+  width: 50%; /* Reduced initial size */
+  max-width: 300px; /* Maximum width */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.sidepics {
+  max-width: 45%; /* Reduced to allow side-by-side */
+  height: auto;
+  display: inline-block;
+  margin: 10px; /* Add some spacing */
+}
+
+.square {
+  max-width: 80%; /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.lbm {
+  max-width: 80%; /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+#images {
+  text-align: center;
+}
+
+/* Menu Styles */
+#menu {
+    width: 100%;
+    background-color: #050515;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex; /* Use flexbox for the menu */
+    justify-content: flex-start; /* align items to the left */
+    padding: 10px 0;
+}
+
+#menu a {
+    border: 2px solid gray;
+    color: #000000;
+    background-color: #7b716d;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: inherit;
+    color: #FFFFFF;
+}
+
+/* Header Styles */
+#pageheader {
+  width: 80%; /* Adjusted width */
+  margin: 60px auto;
+  color: white;
+  text-align: center;
+  font-size: 4vw; /* Scalable font size */
+}
+
+/* Paragraph Styles */
+.paragraph {
+  color: #FFFFFF;
+  font-size: 3vw; /* Scalable font size */
+  padding: 10px 5%; /* Reduced padding, using percentage */
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Section Header Styles */
+.sectionhead {
+  font-size: 6vw; /* Scalable font size */
+  color: #7b716d;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Link Styles */
+.links {
+  width: 80%; /* Adjusted width */
+  color: #666699;
+  border-bottom: 1px solid #eee;
+  font-size: 4vw; /* Scalable font size */
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Section Styles */
+.section {
+  width: 80%; /* Adjusted width */
+  color: #7b716d;
+  border-top: 1px solid #eee;
+  font-size: 5vw; /* Scalable font size */
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px; /* Slightly smaller base font size */
+  }
+
+  #pageheader {
+    font-size: 7vw;
+    width: 90%;
+  }
+
+  .paragraph {
+    font-size: 4vw;
+    padding: 10px 2%;
+  }
+
+  .sectionhead {
+    font-size: 8vw;
+  }
+
+  .links {
+    font-size: 5vw;
+    width: 90%;
+  }
+
+  .section {
+    font-size: 6vw;
+    width: 90%;
+  }
+
+  .img {
+    width: 70%; /* Further reduced image size on small screens */
+    max-width: 200px;
+  }
+
+  .sidepics {
+    max-width: 45%; /* Ensure side-by-side on smaller screens */
+    height: auto;
+    margin: 5px; /* Adjust margins */
+  }
+
+  .square,
+  .lbm {
+    width: 90%;
+  }
+}
+
