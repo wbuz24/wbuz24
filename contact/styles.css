@@ -103,7 +103,7 @@ a:hover {
   font-size: 1.2em; /* Scalable font size */
   padding: 3px 24%; /* Reduced padding, using percentage */
   margin-top: 20px;
-  text-align: left;
+  text-align: center;
   line-height: 1.6;
 }
 
