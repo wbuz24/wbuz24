@@ -107,6 +107,16 @@ a:hover {
   line-height: 1.6;
 }
 
+/* First few lines - introduction */
+.intro {
+  color: #FFFFFF;
+  font-size: 1.2em; /* Scalable font size */
+  padding: 3px 24%; /* Reduced padding, using percentage */
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
 /* Section Header Styles */
 .sectionhead {
   font-size: 1.6em; /* Scalable font size */
