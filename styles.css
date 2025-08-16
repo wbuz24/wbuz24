@@ -38,14 +38,14 @@ a:hover {
 }
 
 .sidepics {
-  max-width: 45%; /* Reduced to allow side-by-side */
+  max-width: 20%; /* Reduced to allow side-by-side */
   height: auto;
   display: inline-block;
   margin: 10px; /* Add some spacing */
 }
 
 .square {
-  max-width: 80%; /* Adjust as needed */
+  max-width: 37%; /* Adjust as needed */
   height: auto;
   display: block;
   margin: 20px auto;
@@ -101,7 +101,7 @@ a:hover {
 .paragraph {
   color: #FFFFFF;
   font-size: 2vw; /* Scalable font size */
-  padding: 10px 5%; /* Reduced padding, using percentage */
+  padding: 10px 10%; /* Reduced padding, using percentage */
   margin-top: 20px;
   text-align: center;
   line-height: 1.6;
@@ -173,7 +173,7 @@ a:hover {
   }
 
   .sidepics {
-    max-width: 45%; /* Ensure side-by-side on smaller screens */
+    max-width: 25%; /* Ensure side-by-side on smaller screens */
     height: auto;
     margin: 5px; /* Adjust margins */
   }
