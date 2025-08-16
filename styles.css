@@ -94,22 +94,22 @@ a:hover {
   margin: 60px auto;
   color: white;
   text-align: flex-start;
-  font-size: 4vw; /* Scalable font size */
+  font-size: 1.4em; /* Scalable font size */
 }
 
 /* Paragraph Styles */
 .paragraph {
   color: #FFFFFF;
-  font-size: 2vw; /* Scalable font size */
-  padding: 10px 10%; /* Reduced padding, using percentage */
+  font-size: 1.2em; /* Scalable font size */
+  padding: 3px 24%; /* Reduced padding, using percentage */
   margin-top: 20px;
-  text-align: center;
+  text-align: left;
   line-height: 1.6;
 }
 
 /* Section Header Styles */
 .sectionhead {
-  font-size: 6vw; /* Scalable font size */
+  font-size: 1.6em; /* Scalable font size */
   color: #7b716d;
   margin-top: 30px;
   text-align: center;
@@ -117,10 +117,10 @@ a:hover {
 
 /* Link Styles */
 .links {
-  width: 80%; /* Adjusted width */
+  width: 51%; /* Adjusted width */
   color: #666699;
   border-bottom: 1px solid #eee;
-  font-size: 4vw; /* Scalable font size */
+  font-size: 1.3em; /* Scalable font size */
   padding: 10px;
   margin: 20px auto;
   text-align: center;
@@ -128,10 +128,10 @@ a:hover {
 
 /* Section Styles */
 .section {
-  width: 80%; /* Adjusted width */
+  width: 51%; /* Adjusted width */
   color: #7b716d;
   border-top: 1px solid #eee;
-  font-size: 5vw; /* Scalable font size */
+  font-size: 1.6em; /* Scalable font size */
   padding: 10px;
   margin: 20px auto;
   text-align: center;
