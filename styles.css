@@ -130,7 +130,7 @@ a:hover {
 .section {
   width: 51%; /* Adjusted width */
   color: #7b716d;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #eee; /* Line in-between sections */
   font-size: 1.6em; /* Scalable font size */
   padding: 10px;
   margin: 20px auto;
