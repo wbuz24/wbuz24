@@ -111,7 +111,7 @@ a:hover {
 .intro {
   color: #FFFFFF;
   font-size: 1.2em; /* Scalable font size */
-  padding: 3px 28%; /* Reduced padding, using percentage */
+  padding: 3px 25%; /* Reduced padding, using percentage */
   margin-top: 20px;
   text-align: center;
   line-height: 1.6;
