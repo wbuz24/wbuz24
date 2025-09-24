@@ -42,6 +42,17 @@
 <p class="section"> <a href="https://ecpower.utk.edu/research/"><u>EESCL</u></a></p>
 
 <p class="paragraph"> With the EESCL, my work focused on the modeling and simulation of proton exchange membrane hydrogren electrolyzers. </p>
+
+<p>Visitor Count: <span id="hit-count">Loading...</span></p>
+
+<script>
+  fetch('counter.php')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('hit-count').textContent = data;
+    });
+</script>
+
 </main>
 <script src="index.js"></script>
 </body>
