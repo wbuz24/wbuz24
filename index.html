@@ -43,7 +43,16 @@
 
 <p class="paragraph"> With the EESCL, my work focused on the modeling and simulation of proton exchange membrane hydrogren electrolyzers. </p>
 
-<p>Visitor Count: <span id="hit-count">Loading...</span></p>
+<h1>Visitor Count: <span id="counter">loading...</span></h1>
+
+<script>
+fetch('https://api.countapi.xyz/hit/wbuz24.github.io/visits')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('counter').innerText = data.value;
+  });
+</script>
+
 </main>
 <script src="index.js"></script>
 </body>
